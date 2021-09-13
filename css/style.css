@@ -127,7 +127,7 @@ nav .btn-short-blue {
     margin-left: 25px;
 }
 
-/*********HERO*********/
+/*********SECTION 1: HERO*********/
 
 .section-1 {
     background-color: #B4D0E7;
@@ -160,3 +160,20 @@ nav .btn-short-blue {
 .section-1 .arrow-down {
     padding-top: 50px;
 }
+
+/*******SECTION-2*******/
+
+.section-2 {
+    padding-top: 200px;
+}
+
+.section-2 .invoice-pref {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section-2 .invoice-pref label {
+    margin-left: 4px;
+    margin-right: 20px;
+}
+
