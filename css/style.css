@@ -13,10 +13,12 @@ clear: both;
 body {
 font-family: "Open Sans", sans-serif;
 font-size: 16px;
+font-weight: 600;
 }
 
 h1 {
 font-size: 77px;
+font-weight: 700;
 }
 
 h2 {
@@ -33,7 +35,7 @@ font-size: 16px;
 }
 
 .btn-short-blue {
-    font-size: 14px;
+    text-decoration: none;
     color: white;
     background-color: #0061FF;
     padding: 8px 20px;
@@ -115,13 +117,13 @@ nav ul li a {
     padding-left: 25px;
     padding-right: 25px;
     color: black;
-    font-weight: 600;
 }
 nav .logo {
     vertical-align: text-bottom;
 }
 
 nav .btn-short-blue {
+    font-size: 14px;
     margin-left: 25px;
 }
 
@@ -129,18 +131,32 @@ nav .btn-short-blue {
 
 .section-1 {
     background-color: #B4D0E7;
-    min-height: 500px;
+    padding-top: 100px;
 }
 
 .move-down {
-    padding-top: 180px;
+    position: relative;
+    top: 80px;
 }
 
 .hero-content {
     padding-top: 40px;
 }
 
-.section-1 img {
-    width: 100%;
+.section-1 p {
+    padding-bottom: 30px;
+    padding-right: 80px;
 }
 
+.section-1 img {
+    max-width: 100%;
+}
+
+.section-1 .annulla {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.section-1 .arrow-down {
+    padding-top: 50px;
+}
