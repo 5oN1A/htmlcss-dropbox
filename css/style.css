@@ -2,5 +2,145 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+body {
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+}
+
+h1 {
+font-size: 77px;
+}
+
+h2 {
+font-size: 40px;
+}
+
+h3 {
+font-size: 25px;
+}
+
+h4,
+h5 {
+font-size: 16px;
+}
+
+.btn-short-blue {
+    font-size: 14px;
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 20px;
+} 
+
+/*************Classi layout****************/
+
+.container-large {
+max-width: 1367px;
+width: 100%;
+margin: auto;
+}
+
+.container {
+max-width: 1010px;
+width: 100%;
+margin: auto;
+}
+
+[class*="col_"] {
+float: left;
+}
+
+.col_1_9 {
+width: calc(100% / 9);
+}
+
+.col_2_9 {
+width: calc(100% / 9 * 2);
+}
+
+.col_3_9 {
+width: calc(100% / 9 * 3);
+}
+
+.col_4_9 {
+width: calc(100% / 9 * 4);
+}
+
+.col_5_9 {
+width: calc(100% / 9 * 5);
+}
+
+.col_6_9 {
+width: calc(100% / 9 * 6);
+}
+
+/*********HEADER*******/
+
+nav {
+position: fixed;
+width: 100%;
+background-color: white;
+z-index: 99;
+}
+
+.nav-list-left, .nav-list-right {
+    float: left;
+    width: 50%;
+}
+
+.nav-list-right {
+    text-align: right;
+    padding-right: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    font-weight: 600;
+}
+nav .logo {
+    vertical-align: text-bottom;
+}
+
+nav .btn-short-blue {
+    margin-left: 25px;
+}
+
+/*********HERO*********/
+
+.section-1 {
+    background-color: #B4D0E7;
+    min-height: 500px;
+}
+
+.move-down {
+    padding-top: 180px;
+}
+
+.hero-content {
+    padding-top: 40px;
+}
+
+.section-1 img {
+    width: 100%;
+}
+
