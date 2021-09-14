@@ -172,7 +172,7 @@ nav .btn-short-blue {
 }
 
 .section-2 .invoice-pref {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 
@@ -181,8 +181,21 @@ nav .btn-short-blue {
     margin-right: 20px;
 }
 
-.section-2 .col_3_9 {
-    }
+/*.section-2 .col_3_9{
+    position: relative;
+}
+
+.align-block {
+    width: 90%;
+    position: absolute;
+    right: 0;
+}
+
+*/
+
+.align-block {
+    width: 90%;
+}
 
 .section-2 .col_3_9 .n-users-plan {
     border-top: 1px solid lightgray;
@@ -197,6 +210,8 @@ nav .btn-short-blue {
 .section-2 .col_3_9 .plan-description {
     border: 1px solid lightgray;
     padding: 30px;
+    font-size: 14px;
+    min-height: 1060px;
 }
 
 .section-2 .col_3_9 .plan-description h3 {
@@ -206,15 +221,38 @@ nav .btn-short-blue {
 .section-2 .col_3_9 .plan-description .p-month {
     padding-top: 10px;
     color: #637381;
+    font-size: 14px;
 }
 
 .section-2 .col_3_9 .plan-description ul {
-    padding: 40px 0;
-    list-style-type: ;
-    font-size: 14px;
+    padding: 30px 0;
+    margin-left: 20px;
 }
 .section-2 .col_3_9 .plan-description ul li {
     padding: 10px 0;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+
+.section-2 .col_3_9 .plan-description .btn-short-blue {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-2 .col_3_9 .plan-description .buy-now{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-2 .col_3_9 .plan-description hr {
+    border-top: 1px solid lightgray;
+    border-bottom: none;
+    width: 20%;
+    margin-bottom: 40px;
 }
 
 
