@@ -459,16 +459,50 @@ nav .btn-short-blue {
     padding-bottom: 45px;
 }
 
-.section-7 .faq {
+.section-7 .faq-container li {
+    position: relative;
     border-top: 1px solid lightgray;
     padding-top: 35px;
     padding-bottom: 35px;
-    font-weight: 700;
+    padding-right: 70px;
+    font-weight: bold;
+    list-style: none;
 }
 
-.section-7 .open {
-    text-align: right;
-    padding-right: 30px;
+.section-7 .faq-container li span {
+    display: inline-block;
+    padding-right: 0;
+}
+
+.section-7 .faq-container li .faq-item-icon {
+    position: absolute;
+    right: 30px;
+    transform: rotate(0deg);
+    transition: transform .2s;
+}
+
+li:focus .faq-item-icon {
+    transform: rotate(180deg);
+}
+
+.faq-item-accordion {
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    display: none;*/
+    height: 0px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    transition: all .3s;
+}
+
+li:focus .faq-item-accordion {
+    /*display: block;*/
+    min-height: 200px;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
 }
 
 .section-7 hr {
@@ -511,7 +545,7 @@ footer .language {
     width: 120px;
 }
 
-footer .fas, span {
+footer .fas, footer span {
     color: grey;
     font-size: 12px;
 }
