@@ -34,13 +34,44 @@ h5 {
 font-size: 16px;
 }
 
-.btn-short-blue {
+.btn-blue {
     text-decoration: none;
     color: white;
     background-color: #0061FF;
-    padding: 8px 20px;
-    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 } 
+
+.btn-blue:hover {
+    text-decoration: underline;
+    background-color: #3A85FF;
+}
+
+.btn-black-border  {
+    text-decoration: none;
+    padding: 8px 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-black-border:hover {
+    border: 2px solid black;
+}
+
+.btn-white {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+}
+
+.btn-white:hover {
+    background-color: #f5f5f5;
+}
 
 hr {
     border-top: 1px solid lightgray;
@@ -130,8 +161,11 @@ nav .logo {
     vertical-align: text-bottom;
 }
 
-nav .btn-short-blue {
+nav .btn-blue {
     margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
 }
 
 /*********SECTION 1: HERO*********/
@@ -168,8 +202,9 @@ nav .btn-short-blue {
     padding-top: 50px;
 }
 
-.section-1 .btn-short-blue {
+.section-1 .btn-blue {
     font-size: 16px;
+    padding: 8px 20px;
 }
 
 /*******SECTION 2*******/
@@ -237,7 +272,7 @@ nav .btn-short-blue {
     color: #0061FF;
 }
 
-.section-2 .btn-short-blue {
+.section-2 .btn-blue {
     display: block;
     width: 100%;
     text-align: center;
@@ -272,6 +307,15 @@ nav .btn-short-blue {
     padding: 15px 0;
 }
 
+.bounce {
+    animation: bounce 2s ease infinite;
+  } 
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
 /*******SECTION 3*******/
 
 .section-3{
@@ -294,13 +338,6 @@ nav .btn-short-blue {
 .section-3 p {
     line-height: 25px;
     padding-bottom: 35px;
-}
-
-.section-3 a {
-    text-decoration: none;
-    padding: 8px 20px;
-    color: black;
-    border: 1px solid black;
 }
 
 /*******SECTION 4*******/
@@ -366,8 +403,6 @@ nav .btn-short-blue {
     width: 50%;
     height: calc(30vw / 2);
 }
-
-
 
 .section-5 .middle .designit-txt {
     padding: 70px;
@@ -436,17 +471,6 @@ nav .btn-short-blue {
     min-height: 360px;
 }
 
-.section-6 .btn-white {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 120px;
-    background-color: white;
-    text-decoration: none;
-    color: black;
-    padding: 8px 20px;
-}
-
 .section-6 h2 {
     margin-top: 120px;
     color: #61082B;
@@ -481,7 +505,7 @@ nav .btn-short-blue {
     transition: transform .2s;
 }
 
-li:focus .faq-item-icon {
+li[tabindex]:focus .faq-item-icon {
     transform: rotate(180deg);
 }
 
