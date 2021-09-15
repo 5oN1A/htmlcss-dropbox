@@ -366,6 +366,9 @@ nav .btn-short-blue {
     width: 50%;
     height: calc(30vw / 2);
 }
+
+
+
 .section-5 .middle .designit-txt {
     padding: 70px;
 }
@@ -385,7 +388,7 @@ nav .btn-short-blue {
 }
 
 .section-5 .side img{
-    width: 50%;
+    max-width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -395,6 +398,7 @@ nav .btn-short-blue {
 
 .section-5 .side .designit {
     background-color: #C8E5C3;
+    border: 10px solid #D0E9CD;
 }
 
 .section-5 .side .asu {
