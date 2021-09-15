@@ -423,7 +423,10 @@ nav .btn-blue {
 }
 
 .section-5 .side img{
-    max-width: 50%;
+    width: 150px;
+    max-width: 100%;
+    height: 75px;
+    object-fit: contain;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -433,6 +436,9 @@ nav .btn-blue {
 
 .section-5 .side .designit {
     background-color: #C8E5C3;
+}
+
+.designit:active {
     border: 10px solid #D0E9CD;
 }
 
@@ -440,28 +446,55 @@ nav .btn-blue {
     background-color: #61082B;
 }
 
+.asu:active {
+    border: 10px solid #B08495;
+}
+
 .section-5 .side .uf {
     background-color: #0793CE;
+}
+.uf:active {
+    border: 10px solid #80C9E7;
 }
 
 .section-5 .side .topps {
     background-color: #FF1C1D;
 }
 
+.topps:active {
+    border: 10px solid #FF8E8E;
+}
+
 .section-5 .side .wbr {
     background-color: #D5001E;
+}
+
+.wbr:active {
+    border: 10px solid #EA808F;
 }
 
 .section-5 .side .hearst {
     background-color: #C4DBEC;
 }
 
+.hearst:active {
+    border: 10px solid #DAE8F3;
+}
+
 .section-5 .side .lp {
     background-color: #0E2481;
 }
 
+.lp:active {
+    border: 10px solid #8692C0;
+}
+
 .section-5 .side .cco {
     background-color: #FFD830;
+}
+
+.cco:active {
+    border: 10px solid #FFEC98;
 }
 
 /*******SECTION 6*******/
