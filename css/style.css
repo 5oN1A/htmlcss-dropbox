@@ -47,6 +47,12 @@ font-size: 16px;
     background-color: #3A85FF;
 }
 
+.btn-blue:active {
+    text-decoration: underline;
+    background-color: indigo;
+}
+
+
 .btn-black-border  {
     text-decoration: none;
     padding: 8px 20px;
@@ -56,6 +62,10 @@ font-size: 16px;
 
 .btn-black-border:hover {
     border: 2px solid black;
+}
+
+.btn-black-border:active {
+    text-decoration: underline;
 }
 
 .btn-white {
@@ -71,6 +81,11 @@ font-size: 16px;
 
 .btn-white:hover {
     background-color: #f5f5f5;
+}
+
+.btn-white:active {
+    text-decoration: underline;
+    background-color: lightgray;
 }
 
 hr {
